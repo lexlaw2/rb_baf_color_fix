@@ -19,6 +19,23 @@ class CfgVehicles{
 	class UK3CB_LandRover_Base: Car_F{
 		class EventHandlers:EventHandlers{
 			init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+			
 		};
+		
+	};
+	class UK3CB_LandRover_M2: UK3CB_LandRover_Base{
+		textureList[] ={};
+		class TextureSources{
+			textureList[] ={};
+		};
+	};
+
+
+	class UK3CB_B_G_LandRover_M2: UK3CB_LandRover_M2{
+		textureList[] ={};
+	};
+	class UK3CB_CCM_I_LR_M2: UK3CB_B_G_LandRover_M2{
+		textureList[] ={};
+		//class TextureSources{};
 	};
 };
