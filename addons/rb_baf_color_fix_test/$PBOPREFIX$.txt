@@ -1,0 +1,2 @@
+prefix=uk3cb_factions\addons\rb_baf_color_fix_test
+
